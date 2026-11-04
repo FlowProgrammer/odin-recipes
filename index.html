@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Receitas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <img id="logo" src="imagens/logo.jpg">
         <h1>Site de Receitas</h1>
-        <nav>
-            <ul>
+        <nav >
+            <ul >
             <li><a href="index.html">Pagina Principal</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="apresentaçao">
             <h2>Receitas</h2>
-            <ul>
-                <li><a href="receitas/pizza.html"> Pizza Caseira</a></li>
-                <li><a href="receitas/lasanha.html">Lasanha à Bolonhesa</a></li>
-                <li><a href="receitas/pastel.html">Pastel De Feira</a></li>
+            <ul class="conteiner-hero">
+                <li class="hero"><img src="imagens/pizza.png"><a href="receitas/pizza.html"> Pizza Caseira</a></li>
+                <li class="hero"><img src="imagens/lasanha.png"><a href="receitas/lasanha.html">Lasanha à Bolonhesa</a></li>
+                <li class="hero"><img src="imagens/pastel.png"><a href="receitas/pastel.html">Pastel De Feira</a></li>
             </ul>
         </section>
     </main>
+    <footer>
+        <p>Feito por Flow Programmer</p>
+    </footer>
 </body>
 </html>
